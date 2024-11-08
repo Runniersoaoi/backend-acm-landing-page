@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_specialty_specialty_components",
+  "info": {
+    "displayName": "specialtyComponent",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SpecialtyComponentTitle": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "SpecialtyComponentDescription": {
+      "type": "string",
+      "required": true,
+      "minLength": 8,
+      "unique": true
+    },
+    "SpecialtyComponentLink": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_event_event_incoming_sections",
+  "info": {
+    "displayName": "EventIncomingSection",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "EventIncomingSectionTitle": {
+      "type": "string",
+      "default": "Proximos eventos",
+      "required": true
+    },
+    "EventIncomingSectionDescription": {
+      "type": "text",
+      "required": true,
+      "default": "Descubra reuniones locales, talleres y eventos en línea cerca de usted."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_event_events_lists",
+  "info": {
+    "displayName": "EventsList",
+    "icon": "pinMap"
+  },
+  "options": {},
+  "attributes": {
+    "EventName": {
+      "type": "string",
+      "required": true
+    },
+    "EventLocation": {
+      "type": "string",
+      "required": false
+    },
+    "EventDate": {
+      "type": "datetime"
+    },
+    "EventIsPresencial": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "EventDescription": {
+      "type": "text",
+      "required": true,
+      "minLength": 10
+    },
+    "EventLink": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

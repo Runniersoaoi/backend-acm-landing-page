@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_home_banner_home_sections",
+  "info": {
+    "displayName": "BannerHomeSection",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "BannerHomeTitle": {
+      "type": "string",
+      "default": "Conectando ideas, potenciando el futuro tecnológico",
+      "required": true,
+      "minLength": 5
+    }
+  }
+}

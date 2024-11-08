@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_courses_home_sections",
+  "info": {
+    "displayName": "CoursesHomeSection",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CourseHomeSectionTitle": {
+      "type": "string",
+      "default": "Nuestras clases mas recientes",
+      "required": true,
+      "minLength": 3
+    },
+    "CourseHomeSectionDescription": {
+      "type": "text",
+      "default": "Puedes revisar el contenido mas reciente creado por nuestros especialistas",
+      "required": true,
+      "minLength": 6
+    }
+  }
+}

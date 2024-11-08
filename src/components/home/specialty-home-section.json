@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_specialty_home_sections",
+  "info": {
+    "displayName": "SpecialtyHomeSection",
+    "icon": "server",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SpecialtyHomeSectionTitle": {
+      "type": "string",
+      "default": "Disfruta la mejor experiencia con nuestros cursos",
+      "required": true
+    },
+    "SpecialtyHomeSectionDescription": {
+      "type": "text",
+      "required": true,
+      "default": "ACM Student Chapter es un grupo estudiantil de ingeniería de sistemas de la universidad Continental avalado por ACM (Association for Computing Machinery) que busca incentivar la investigación y el desarrollo de competencias en las áreas de ciencias de la computación.",
+      "unique": false
+    }
+  }
+}

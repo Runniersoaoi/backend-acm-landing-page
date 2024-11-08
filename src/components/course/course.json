@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_course_courses",
+  "info": {
+    "displayName": "CourseComponent",
+    "icon": "calendar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CourseImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "CourseDate": {
+      "type": "datetime",
+      "required": true,
+      "default": "2024-10-31T13:15:00.000Z"
+    },
+    "CourseName": {
+      "type": "string",
+      "required": true,
+      "default": "Nombre de curso por defecto",
+      "minLength": 3
+    }
+  }
+}

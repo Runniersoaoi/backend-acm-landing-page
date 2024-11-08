@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_home_footer_home_sections",
+  "info": {
+    "displayName": "FooterHomeSection",
+    "icon": "slideshow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FotterHomeSectionTitle": {
+      "type": "string",
+      "default": "ACM Student Chapter UC",
+      "required": true,
+      "minLength": 2
+    },
+    "FotterHomeSectionDescription": {
+      "type": "text",
+      "default": "Contamos con un gran talento humano que tiene pasión por compartir conocimiento.",
+      "required": true,
+      "unique": false,
+      "minLength": 5
+    },
+    "FooterHomeSectionItemNavigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.footer",
+      "required": true
+    },
+    "FooterHomeSectionLegal": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.footer",
+      "required": true
+    }
+  }
+}

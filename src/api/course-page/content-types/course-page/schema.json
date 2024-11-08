@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "course_pages",
+  "info": {
+    "singularName": "course-page",
+    "pluralName": "course-pages",
+    "displayName": "Coursee",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "coursePageTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "coursePageDescription": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "required": true,
+      "unique": true
+    }
+  }
+}

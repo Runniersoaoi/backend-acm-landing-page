@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_home_contact_home_sections",
+  "info": {
+    "displayName": "ContactHomeSection",
+    "icon": "envelop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ContactHomeSectionTitle": {
+      "type": "string",
+      "default": "Contacta con nuestro equipo",
+      "required": true,
+      "minLength": 1
+    },
+    "ContactHomeSectionDescription": {
+      "type": "text",
+      "default": "Contamos con un gran talento humano que tiene pasión por compartir conocimiento.",
+      "required": true,
+      "minLength": 5
+    },
+    "ContactHomeSectionPhoneNumber": {
+      "type": "string",
+      "default": "999999999",
+      "required": true
+    },
+    "ContactHomeSectionEmail": {
+      "type": "string",
+      "default": "tudirecciónemail@gmail.com",
+      "required": true
+    },
+    "ContactHomeSectionForm": {
+      "displayName": "ContactHomeSectionForm",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.contact-home-section-form",
+      "required": true
+    }
+  }
+}

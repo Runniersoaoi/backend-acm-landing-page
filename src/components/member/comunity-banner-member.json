@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_member_comunity_banner_members",
+  "info": {
+    "displayName": "ComunityBannerMember",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ComunityBannerTitle": {
+      "type": "string",
+      "default": "Miembros de nuestra comunidad",
+      "required": true,
+      "unique": false
+    },
+    "ComunityBannerDescription": {
+      "type": "text",
+      "default": "El siguiente directorio contiene la lista de todos los miembros de nuestra comunidad. Personas apasionadas por la tecnología que comparten el objetivo de impactar en la industria",
+      "required": true
+    },
+    "comunityDiscordLink": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    }
+  }
+}

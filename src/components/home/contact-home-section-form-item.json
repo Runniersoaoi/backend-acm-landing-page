@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_home_contact_home_section_form_items",
+  "info": {
+    "displayName": "ContactHomeSectionFormItem",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "ContactFormInputName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ContactFormInputLabel": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

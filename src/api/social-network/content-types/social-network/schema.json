@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_networks",
+  "info": {
+    "singularName": "social-network",
+    "pluralName": "social-networks",
+    "displayName": "socialNetwork"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "socialNetworkName": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "socialNetworkLink": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}

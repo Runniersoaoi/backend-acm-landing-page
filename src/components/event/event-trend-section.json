@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_event_event_trend_sections",
+  "info": {
+    "displayName": "EventTrendSection",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "EventTrendTitle": {
+      "type": "string",
+      "default": "Eventos en tendencia",
+      "required": true,
+      "unique": false,
+      "minLength": 2
+    }
+  }
+}

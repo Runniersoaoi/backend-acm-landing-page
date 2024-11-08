@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_member_members",
+  "info": {
+    "displayName": "Member",
+    "icon": "emotionHappy"
+  },
+  "options": {},
+  "attributes": {
+    "MemberSpecialty": {
+      "type": "string",
+      "required": true
+    },
+    "MemberName": {
+      "type": "string",
+      "default": "John Doe",
+      "required": true
+    },
+    "MemberLocation": {
+      "type": "string",
+      "default": "Huancayo, Perú",
+      "required": true
+    },
+    "MemberCicle": {
+      "type": "integer",
+      "default": 5,
+      "required": true
+    },
+    "MemberLinkedIn": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "MemberGithubLink": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

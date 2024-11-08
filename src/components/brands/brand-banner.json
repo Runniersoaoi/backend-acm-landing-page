@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_brands_brand_banners",
+  "info": {
+    "displayName": "BrandBanner",
+    "icon": "chartCircle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "BrandBannerItem": {
+      "displayName": "brandBannerItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "brands.brand-banner-item",
+      "required": true
+    }
+  }
+}

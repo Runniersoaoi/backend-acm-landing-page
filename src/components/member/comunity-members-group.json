@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_member_comunity_members_groups",
+  "info": {
+    "displayName": "ComunityMembersGroup",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "ComunityMember": {
+      "type": "component",
+      "repeatable": true,
+      "component": "member.member",
+      "required": true
+    }
+  }
+}

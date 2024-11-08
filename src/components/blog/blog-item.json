@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blog_blog_items",
+  "info": {
+    "displayName": "BlogItem",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "BlogTitle": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "BlogDescription": {
+      "type": "text",
+      "unique": true,
+      "required": true
+    }
+  }
+}

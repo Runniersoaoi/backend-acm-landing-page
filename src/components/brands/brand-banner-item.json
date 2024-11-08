@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_brands_brand_banner_items",
+  "info": {
+    "displayName": "brandBannerItem",
+    "icon": "chartPie"
+  },
+  "options": {},
+  "attributes": {
+    "BranBannerItemImgLink": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "BrandBannerItemImgAlt": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    }
+  }
+}

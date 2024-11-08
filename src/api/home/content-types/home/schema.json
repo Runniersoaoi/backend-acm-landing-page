@@ -1,0 +1,104 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "BannerHomeSection": {
+      "displayName": "BannerHomeSection",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.banner-home-section",
+      "required": true
+    },
+    "SpecialtyHomeSection": {
+      "displayName": "SpecialtyHomeSection",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.specialty-home-section",
+      "required": true
+    },
+    "CourseHomeSection": {
+      "displayName": "CoursesHomeSection",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.courses-home-section",
+      "required": true
+    },
+    "MemberHomeSection": {
+      "displayName": "MemberHomeSection",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.member-home-section",
+      "required": true
+    },
+    "UpcomingEventHomeSection": {
+      "displayName": "UpcomingEventsSection",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.upcoming-events-section",
+      "required": true
+    },
+    "ContactHomeSection": {
+      "displayName": "ContactHomeSection",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.contact-home-section",
+      "required": true
+    },
+    "FotterHomeSection": {
+      "displayName": "FooterHomeSection",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.footer-home-section",
+      "required": true
+    }
+  }
+}

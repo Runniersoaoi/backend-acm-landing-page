@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_upcoming_events_sections",
+  "info": {
+    "displayName": "UpcomingEventsSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "UpcomingEventHomeSectionTitle": {
+      "type": "string",
+      "default": "Proximos eventos",
+      "required": true,
+      "minLength": 2
+    },
+    "UpcomingEventHomeSectionDescription": {
+      "type": "text",
+      "default": "Descubra reuniones locales, talleres y eventos en línea cerca de usted.",
+      "required": true,
+      "minLength": 4
+    }
+  }
+}

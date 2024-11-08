@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_event_event_past_sections",
+  "info": {
+    "displayName": "EventPastSection",
+    "icon": "earth",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "EventPastSectionTitle": {
+      "type": "string",
+      "default": "Eventos pasados",
+      "required": true
+    },
+    "EventPastSectionDescription": {
+      "type": "text",
+      "default": "Vea más sobre reuniones pasadas en su localidad o talleres y eventos en línea que se desarrollaron.",
+      "required": true
+    }
+  }
+}

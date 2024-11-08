@@ -1,0 +1,113 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "aboutTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "default": "Estamos acercando superpoderes de desarrollo a todos."
+    },
+    "aboutWhoWeAre": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "default": "ACM Student Chapter es un grupo avalado por la Association for Computing Machinery que busca incentivar la investigación y el desarrollo de competencias en las áreas de ciencias de la computación.",
+      "required": true
+    },
+    "aboutOurPrinciples": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "required": true,
+      "default": "Vemos cada día como una oportunidad para convertir los valores en acción a través de nuestros 4 comportamientos fundamentales."
+    },
+    "ourPrinciple1": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "default": "Inclusividad"
+    },
+    "ourPrinciple2": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "default": "Resiliencia"
+    },
+    "ourPrinciple3": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "default": "Innovación"
+    },
+    "ourPrinciple4": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "default": "Cooperación"
+    },
+    "ourMision": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "default": "Ofrecemos una experiencia estudiantil inmersiva con un plan de estudios conectado a la industria, enfocado en el aprendizaje práctico. Buscamos generar confianza y autoconciencia en los estudiantes, dotándolos de habilidades para aprovechar oportunidades y alcanzar su potencial para su carrera profesional",
+      "required": true
+    },
+    "ourVision": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "default": "ACM fomentará el talento de los estudiantes, ofreciendo un camino estructurado desde la educación hasta el empleo en un entorno seguro y de apoyo. Nuestro enfoque busca desbloquear el potencial individual, promoviendo el crecimiento personal y profesional. Aspiramos a ser líderes en educación dentro de industria, así como la eliminación de barreras al aprendizaje.",
+      "required": true
+    }
+  }
+}
